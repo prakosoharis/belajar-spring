@@ -5,9 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.5.5</version>
-		<relativePath/> <!-- lookup parent from repository -->
-	</parent>
+		<version>2.5.5</version> <relativePath/> </parent>
 	<groupId>programmer-zaman-now</groupId>
 	<artifactId>belajar-spring-dasar</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -39,7 +37,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<version>3.11.0</version> 
 				<configuration>
 					<excludes>
 						<exclude>
@@ -49,7 +46,7 @@
 					</excludes>
 				</configuration>
 			</plugin>
-		</plugins>
+			</plugins>
 	</build>
 
 </project>
